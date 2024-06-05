@@ -43,12 +43,14 @@ html {
     --clr-slate400: #1e293b;
     --clr-slate600: #1e293b;
     --clr-slate800: #1e293b;
+    transition: 0.3s ease-in-out;
 }
 
 body {
     font-family: 'General Sans', sans-serif;
     color: var(--clr-light);
     background-color: var(--clr-dark);
+    transition: 0.3s ease-in-out;
 }
 
 img,
