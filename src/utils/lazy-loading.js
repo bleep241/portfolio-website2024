@@ -12,10 +12,6 @@ const lazyLoading = () => {
                 observer.unobserve(img);
             }
         });
-    }, {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0,
     });
     
     lazyImgs.forEach((img) => {
